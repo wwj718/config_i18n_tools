@@ -21,3 +21,5 @@ $ brew link gettext --force
 ---
 
 通过阅读源码我们发现其实真正用于检测po文件语法的命令是 `msgfmt -c FILE`
+
+`msgfmt -c django.po` ，这种方式很干净清晰
