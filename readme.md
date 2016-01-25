@@ -13,9 +13,9 @@ i18n_tool validate --config=./config
 
 如果在mac下执行可能会报错，需要安装gettext
 
-```
+```bash
 brew install gettext  
-$ brew link gettext --force
+brew link gettext --force
 ```
 
 ---
